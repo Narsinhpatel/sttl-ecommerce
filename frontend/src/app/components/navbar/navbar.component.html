@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="logo">
+    <img src="../../favicon.ico" alt="logo" />
+    <h1 >User Authentication</h1>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a mat-button routerLink="/" class="nav-link">Home</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/register" class="nav-link">Register</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/login" class="nav-link">Login</a>
+    </li>
+    <li>
+      <a mat-button (click)="logout()" class="nav-link">Logout</a>
+    </li>
+  </ul>
+</nav>
